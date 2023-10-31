@@ -12,7 +12,7 @@ public class newClass {
         System.out.println(result);
        */
         // take input from users
-        Scanner input = new Scanner(System.in);
+       /* Scanner input = new Scanner(System.in);
         System.out.println("Enter your marks: ");
         double marks = input.nextDouble();
 
@@ -22,5 +22,19 @@ public class newClass {
 
         System.out.println("You " + result + " the exam.");
         input.close();
+
+        */
+       /* for(int i=1; i<11; i++){
+            System.out.println("Count is: " + i);
+        }*/
+
+        int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+
+        for (int number : numbers) {
+            String result = (number % 2 == 0) ? "even" : "odd";
+            System.out.println(number + " is " + result);
+        }
+
+
     }
 }
