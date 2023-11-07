@@ -56,7 +56,9 @@ public class numberOfMonths {
         }
 
         System.out.println(monthSelect + " - Number of days in the selected month is: " + daysInMonth);
+
     }
+
 }
 
          /*
@@ -110,3 +112,4 @@ public class numberOfMonths {
         System.out.println(monthString);
     }
 }*/
+
